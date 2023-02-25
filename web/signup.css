@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Lora', serif;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.is-invalid~.invalid-feedback,
+.is-invalid~.invalid-tooltip,
+.was-validated :invalid~.invalid-feedback,
+.was-validated :invalid~.invalid-tooltip {
+    display: flex;
+    position: fixed;
+    margin-top: 59px;
+    margin-left: 48px;
+}
+
+.register {
+    text-decoration: none;
+    font-size: large;
+}
+
+.Register p a:hover {
+    font-weight: bolder;
+}
+
+.forgetPassword a:hover {
+    font-weight: bold;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+
+.fa-google:before {
+    content: "\f1a0";
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+
+*,
+ :after,
+ :before {
+    box-sizing: border-box;
+}
+
+.text-body {
+    text-decoration: none;
+}
+
+.fav {
+    margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
